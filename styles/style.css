@@ -1,20 +1,76 @@
-
-  html {
-    font-family: "Century Gothic", sans-serif;
-}
-
 body {
   width: 95%;
   margin: auto;
+  font-family: "raleway",sans-serif;
+  font-weight: 300;
 }
 
 h1 {
-  font-size: 2em;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 3rem;
+  font-family: "raleway",sans-serif;
+  font-weight: 900;
+  line-height: 3rem;
+  margin: 3% 0% 0% 0%;
+  color: #707070;
 }
 
 h2 {
-  font-size: .8em;
-  font-family: "Century Gothic", sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  font-family: "raleway",sans-serif;
+  font-weight: 100;
+  color: #bbbbbb;
 }
 
+h3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "raleway",sans-serif;
+  font-weight: 400;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  font-family: "raleway",sans-serif;
+  font-weight: 300;
+  color: #707070;
+}
+
+a {
+  text-decoration: none;
+  color: #bbbbbb;
+}
+
+a:hover {
+  color: #303030;
+}
+
+nav {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+nav li {
+  list-style-image: none;
+  list-style-position: outside;
+  list-style-type: none;
+  display: block;
+  float: left;
+  padding: 0 5% 5% 0;
+  margin: 0;
+}
+
+nav li a {
+ color: #707070; 
+}
+
+nav li a:hover {
+  color: #bbbbbb;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
