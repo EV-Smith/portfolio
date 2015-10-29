@@ -1,6 +1,6 @@
 body {
   width: 95%;
-  margin: auto;
+  margin: 0 auto;
   font-family: "raleway",sans-serif;
   font-weight: 300;
 }
@@ -41,25 +41,26 @@ p {
 
 a {
   text-decoration: none;
-  color: #bbbbbb;
+  font-weight: 400;
+  color: #256ed3;
 }
 
 a:hover {
-  color: #303030;
+  color: #4184e0;
 }
 
 nav {
   padding: 0;
   margin: 0;
   width: 100%;
-  padding: 0 0 3% 0;
+  padding: 0 0 4% 0;
 }
 
 nav ul {
   padding: 0;
 }
 
-nav li {
+nav ul li {
   list-style-image: none;
   list-style-position: outside;
   list-style-type: none;
@@ -69,11 +70,13 @@ nav li {
   margin: 0;
 }
 
-nav li a {
- color: #707070; 
+nav ul li a {
+  color: #707070;
+  font-weight: 300;
+
 }
 
-nav li a:hover {
+nav ul li a:hover {
   color: #bbbbbb;
 }
 
@@ -84,4 +87,38 @@ figure {
 
 #homepagebanner {
   width: 100%;
+  margin: 0 auto;
+  padding: 0 0 3% 0;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  padding: 5% 0 0 0;
+}
+
+section.copyright {
+  float: left;
+}
+
+section.social {
+  float: right;
+  width: 150px;
+}
+
+section.social a {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+iframe {
+  width: 500px;
+  height: 281px;
+  border: none;
+}
+  
+figcaption {
+  font-size: .8rem;
+  color: #bbbbbb;
+  
 }
