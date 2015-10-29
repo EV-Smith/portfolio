@@ -73,7 +73,6 @@ nav ul li {
 nav ul li a {
   color: #707070;
   font-weight: 300;
-
 }
 
 nav ul li a:hover {
@@ -120,5 +119,4 @@ iframe {
 figcaption {
   font-size: .8rem;
   color: #707070;
-  
 }
