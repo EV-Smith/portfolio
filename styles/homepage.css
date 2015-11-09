@@ -4,8 +4,8 @@ body {
 }
 
 section.about {
-  width: 30%;
+  width: 25rem;
   padding: 2rem 3rem;
   border: 2px solid #565656;
-  margin: 2% auto 6% auto;
+  margin: 2rem auto 6rem auto;
 }
