@@ -15,6 +15,14 @@ h1 {
   color: #353535;
 }
 
+h1:hover {
+  color: #FF503B;
+}
+
+h1:active {
+  color: #7F342B;
+}
+
 h2 {
   font-size: 1.25rem;
   line-height: 1.1rem;
@@ -93,21 +101,22 @@ figure {
   padding: 0;
 }
 
-#homepagebanner {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 0 3% 0;
-}
-
 footer {
+  clear: both;
   width: 100%;
   height: 5rem;
   padding: 5% 0 0 0;
 }
 
+footer.about {
+  margin-top: 21rem;
+}
+
 section.copyright {
   float: left;
 }
+
+
 
 section.social {
   float: right;
@@ -116,8 +125,37 @@ section.social {
 
 section.social a {
   padding-left: 20px;
-  padding-bottom: 20px;
 }
+
+
+section.about-text p {
+  padding: 3rem;
+  float: left;
+  margin-left: 20rem;
+  width: 20%;
+  border: 3px solid #eaeaea;
+}
+
+
+section.about-text i {
+  color: #eaeaea;
+}
+
+img.about-img {
+  border-radius: 50%;
+  border: 3px solid #eaeaea;
+  float: right;
+  width: 20%;
+  margin-right: 20rem;
+}
+
+
+footer section.copyright.about p {
+  color: #eaeaea;
+}
+
+
+
 
 i {
   color: #353535;
@@ -129,6 +167,18 @@ i:hover {
 
 i:active {
   color:#7F342B; 
+}
+
+i.about-social {
+  color: #eaeaea;
+}
+
+i.about-social:hover {
+  color: #FF503B;
+}
+
+i.about-social:active {
+  color: #7F342B;
 }
 
 
