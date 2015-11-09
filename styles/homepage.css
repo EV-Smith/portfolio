@@ -1,0 +1,11 @@
+body {
+  background: url('../images/homepage-alt2.jpg') no-repeat;
+  background-size: cover;
+}
+
+section.about {
+  width: 30%;
+  padding: 2rem 3rem;
+  border: 2px solid #565656;
+  margin: 2% auto 6% auto;
+}

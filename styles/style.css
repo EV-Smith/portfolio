@@ -1,5 +1,6 @@
 body {
   width: 95%;
+  background-color: #f2f2f2;
   margin: 0 auto;
   font-family: "raleway",sans-serif;
   font-weight: 300;
@@ -11,7 +12,7 @@ h1 {
   font-weight: 900;
   line-height: 3rem;
   margin: 3% 0 0 0;
-  color: #707070;
+  color: #353535;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
   font-family: "raleway",sans-serif;
   font-weight: 100;
   margin: 1% 0 0 0;
-  color: #707070;
+  color: #353535;
 }
 
 h3 {
@@ -28,7 +29,7 @@ h3 {
   line-height: 2rem;
   font-family: "raleway",sans-serif;
   font-weight: 400;
-  color: #707070;
+  color: #353535;
 }
 
 p {
@@ -36,7 +37,7 @@ p {
   line-height: 1.3rem;
   font-family: "raleway",sans-serif;
   font-weight: 300;
-  color: #707070;
+  color: #353535;
 }
 
 a {
@@ -46,6 +47,7 @@ a {
 }
 
 a:hover {
+  color: #4184e0;
   color: #4184e0;
 }
 
@@ -71,7 +73,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #707070;
+  color: #353535;
   font-weight: 300;
 }
 
@@ -102,13 +104,18 @@ section.copyright {
 
 section.social {
   float: right;
-  width: 150px;
+  margin-right: 2%;
 }
 
 section.social a {
   padding-left: 20px;
   padding-bottom: 20px;
 }
+
+i {
+  color: #353535;
+}
+
 
 iframe {
   width: 500px;
@@ -118,5 +125,6 @@ iframe {
   
 figcaption {
   font-size: .8rem;
-  color: #707070;
+  color: #d6d6d6;
 }
+
