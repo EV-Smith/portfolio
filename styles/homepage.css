@@ -1,11 +1,12 @@
 body {
   background: url('../images/homepage-alt2.jpg') no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 section.home {
   width: 25rem;
   padding: 2rem 3rem;
   border: 2px solid #565656;
-  margin: 2rem auto 6rem auto;
+  margin: 4% auto 6% auto;
 }

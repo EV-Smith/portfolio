@@ -2,14 +2,18 @@ body {
   width: 95%;
   background-color: #f2f2f2;
   margin: 0 auto;
-  font-family: "raleway",sans-serif;
-  font-weight: 300;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 400;
+}
+
+header {
+    min-height: 20%;
 }
 
 h1 {
   font-size: 3rem;
-  font-family: "raleway",sans-serif;
-  font-weight: 900;
+  font-family: "futura-pt",sans-serif;
+  font-weight: 800;
   line-height: 3rem;
   margin: 3% 0 0 0;
   color: #353535;
@@ -26,7 +30,7 @@ h1:active {
 h2 {
   font-size: 1.25rem;
   line-height: 1.1rem;
-  font-family: "raleway",sans-serif;
+  font-family: "futura-pt",sans-serif;
   font-weight: 100;
   margin: 1% 0 0 0;
   color: #353535;
@@ -35,7 +39,7 @@ h2 {
 h3 {
   font-size: 1.5rem;
   line-height: 2rem;
-  font-family: "raleway",sans-serif;
+  font-family: "futura-pt",sans-serif;
   font-weight: 400;
   color: #353535;
 }
@@ -43,7 +47,7 @@ h3 {
 p {
   font-size: 1rem;
   line-height: 1.3rem;
-  font-family: "raleway",sans-serif;
+  font-family: "futura-pt",sans-serif;
   font-weight: 300;
   color: #353535;
 }
@@ -66,7 +70,7 @@ nav {
   padding: 0;
   margin: 0;
   width: 100%;
-  padding: 0 0 4% 0;
+  padding: 0 0 4rem 0;
 }
 
 nav ul {
@@ -106,6 +110,7 @@ footer {
   width: 100%;
   height: 5rem;
   padding: 5% 0 0 0;
+  min-height: 10%;
 }
 
 footer.about {
