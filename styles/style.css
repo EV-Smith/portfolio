@@ -67,7 +67,6 @@ a:active {
 }
 
 nav {
-  padding: 0;
   margin: 0;
   width: 100%;
   padding: 0 0 4rem 0;
@@ -144,7 +143,7 @@ section.social a {
 section.about-text {
   padding: 3rem;
   float: left;
-  width: 30%;
+  width: 15rem;
   border: 3px solid #eaeaea;
 }
 
@@ -153,13 +152,21 @@ img.about-img {
   border-radius: 50%;
   border: 3px solid #eaeaea;
   float: right;
-  width: 36%;
+  width: 17rem;
 }
 
 
 footer section.copyright.about p {
   color: #eaeaea;
 }
+
+.home {
+  width: 25rem;
+  padding: 2rem 3rem;
+  border: 2px solid #565656;
+  margin: 4% auto 6% auto;
+}
+
 .google-font {
   font-family: 'Poiret One', cursive;
 }
@@ -209,8 +216,9 @@ i.about-social:active {
 }
 
 video {
-  width: 100%;
+  width: 95%;
   height: auto;
+  margin-bottom: 5%;
 }
 iframe {
   width: 500px;
