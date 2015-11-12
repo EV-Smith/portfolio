@@ -160,6 +160,9 @@ img.about-img {
 footer section.copyright.about p {
   color: #eaeaea;
 }
+.google-font {
+  font-family: 'Poiret One', cursive;
+}
 
 .current-page {
   font-weight: 600;
