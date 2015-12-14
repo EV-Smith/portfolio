@@ -167,10 +167,6 @@ footer section.copyright.about p {
   margin: 4% auto 6% auto;
 }
 
-.google-font {
-  font-family: 'Poiret One', cursive;
-}
-
 .current-page {
   font-weight: 600;
 }
@@ -184,11 +180,6 @@ footer section.copyright.about p {
 .grid-right {
   width: 50%;
   float: right;
-}
-
-iframe.grid-left {
-  min-width: 48%;
-  height: auto;
 }
 
 i {
@@ -219,17 +210,5 @@ video {
   width: 95%;
   height: auto;
   margin-bottom: 5%;
-}
-iframe {
-  width: 500px;
-  height: 281px;
-  border: none;
-  padding: 4%;
-  margin: 0 auto;
-}
-  
-figcaption {
-  font-size: .8rem;
-  color: #d6d6d6;
 }
 
