@@ -1,3 +1,5 @@
+/*  Bootstrap Grid CSS  */
+
 /*  SECTIONS  */
 .section {
 	clear: both;
@@ -67,6 +69,9 @@
 	.span_3_of_3, .span_2_of_3, .span_1_of_3 { width: 100%; }
 }
 
+
+/*  My Styles  */ 
+
 body {
   width: 95%;
   background-color: #f2f2f2;
@@ -75,13 +80,28 @@ body {
   font-weight: 500;
 }
 
-header {
-    min-height: 20%;
+p {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  color: #131313;
 }
+
+a {
+  text-decoration: none;
+  color: #FF503B;
+}
+
+a:hover {
+  color: #CC3C29;
+}
+
+a:active {
+  color: #7F342B;
+}
+
 
 h1 {
   font-size: 3rem;
-  font-family: "raleway",sans-serif;
   font-weight: 900;
   line-height: 3rem;
   margin: 3% 0 0 0;
@@ -99,7 +119,6 @@ h1:active {
 h2 {
   font-size: 1.25rem;
   line-height: 1.1rem;
-  font-family: "raleway",sans-serif;
   font-weight: 300;
   margin: 1% 0 0 0;
   color: #353535;
@@ -108,32 +127,13 @@ h2 {
 h3 {
   font-size: 1.2rem;
   line-height: 2rem;
-  font-family: "raleway",sans-serif;
   font-weight: 900;
   color: #353535;
   margin: 0;
 }
 
-p {
-  font-size: 1rem;
-  line-height: 1.3rem;
-  font-family: "raleway",sans-serif;
-  font-weight: 500;
-  color: #131313;
-}
-
-a {
-  text-decoration: none;
-  font-weight: 500;
-  color: #FF503B;
-}
-
-a:hover {
-  color: #CC3C29;
-}
-
-a:active {
-  color: #7F342B;
+header {
+    min-height: 20%;
 }
 
 nav {
@@ -174,12 +174,6 @@ nav ul li a.current {
   font-weight: 600;
 }
 
-
-figure {
-  margin: 0;
-  padding: 0;
-}
-
 footer {
   clear: both;
   width: 100%;
@@ -191,8 +185,6 @@ section.copyright {
   float: left;
 }
 
-
-
 section.social {
   float: right;
   margin-right: 2%;
@@ -200,11 +192,6 @@ section.social {
 
 section.social a {
   padding-left: 20px;
-}
-
-.center {
-  margin: 0 auto; 
-  width: 60%
 }
 
 section.about-text {
@@ -229,6 +216,21 @@ footer section.copyright.about p {
   color: #eaeaea;
 }
 
+.homepage-bg {
+  background: url('../images/homepage-alt2.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.about-bg {
+  background: url('../images/about-bg.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
 .home {
   width: 25rem;
   padding: 2rem 3rem;
@@ -239,6 +241,24 @@ footer section.copyright.about p {
 .current-page {
   font-weight: 600;
 }
+
+.photography {
+  width: 70%;
+  padding: 2rem 0;
+}
+
+video {
+  width: 95%;
+  height: auto;
+  padding-bottom: 1rem;
+}
+
+.video-text {
+  padding-right: 2.5rem;
+}
+
+
+/*  Font Awesome Icon styline */
 
 i {
   color: #353535;
@@ -262,14 +282,4 @@ i.about-social:hover {
 
 i.about-social:active {
   color: #7F342B;
-}
-
-video {
-  width: 95%;
-  height: auto;
-  padding-bottom: 1rem;
-}
-
-.video-text {
-  padding-right: 2.5rem;
 }
