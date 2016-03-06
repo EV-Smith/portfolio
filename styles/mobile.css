@@ -245,8 +245,8 @@ footer section.copyright.about p {
 }
 
 .photography {
-  width: 70%;
-  padding: 2rem 0;
+  width: 100%;
+  padding: 2rem 1rem;
 }
 
 video {
