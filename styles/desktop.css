@@ -238,6 +238,14 @@ footer section.copyright.about p {
   margin: 4% auto 6% auto;
 }
 
+.title {
+  font-size: 35px;
+}
+
+.subtitle {
+  font-size: 20px;
+}
+
 .current-page {
   font-weight: 600;
 }
