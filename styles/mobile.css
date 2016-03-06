@@ -74,7 +74,7 @@
 
 body {
   width: 100%;
-  background-color: #f2f2f2;
+  background-color: #fdfdfd;
   margin: 0 auto;
   font-family: "raleway",sans-serif;
   font-weight: 500;
@@ -244,9 +244,20 @@ footer section.copyright.about p {
   font-weight: 600;
 }
 
+a.active {
+  color: #FF503B; 
+}
+h1.active {
+  color: #FF503B; 
+}
+
 .photography {
   width: 100%;
   padding: 2rem 1rem;
+}
+
+.first-photo {
+  padding-top: -1rem;
 }
 
 video {
