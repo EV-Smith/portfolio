@@ -101,7 +101,7 @@ a:active {
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 3rem !important;
   font-weight: 900;
   line-height: 3rem;
   margin: 3% 0 0 0;
