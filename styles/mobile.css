@@ -101,7 +101,7 @@ a:active {
 
 
 h1 {
-  font-size: 3rem !important;
+  font-size: 3rem;
   font-weight: 900;
   line-height: 3rem;
   margin: 3% 0 0 0;
@@ -234,11 +234,11 @@ footer section.copyright.about p {
 
 
 .title {
-  font-size: 35px;
+  font-size: 5rem;
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 2rem;
 }
 
 
