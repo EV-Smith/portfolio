@@ -72,12 +72,18 @@
 
 /*  My Styles  */ 
 
+html {
+  height: 100%;
+  min-height: 100%; 
+}
+
 body {
-  width: 95%;
-  background-color: #f2f2f2;
+  width: 100%;
+  background-color: #fdfdfd;
   margin: 0 auto;
   font-family: "raleway",sans-serif;
   font-weight: 500;
+  min-height: 100%;
 }
 
 p {
@@ -219,8 +225,12 @@ footer section.copyright.about p {
 .homepage-bg {
   background: url('../images/homepage-alt2.jpg') no-repeat;
   background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  min-height: 100%;
 }
 
 .about-bg {
@@ -228,6 +238,16 @@ footer section.copyright.about p {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  min-height: 100%;
+}
+
+
+.title {
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 2rem;
 }
 
 
@@ -242,9 +262,20 @@ footer section.copyright.about p {
   font-weight: 600;
 }
 
+a.active {
+  color: #FF503B; 
+}
+h1.active {
+  color: #FF503B; 
+}
+
 .photography {
-  width: 70%;
-  padding: 2rem 0;
+  width: 100%;
+  padding: 2rem 1rem;
+}
+
+.first-photo {
+  padding-top: -1rem;
 }
 
 video {
