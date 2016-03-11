@@ -78,7 +78,7 @@ html {
 }
 
 body {
-  width: 95%;
+  width: 90%;
   background-color: #fdfdfd;
   margin: 0 auto;
   font-family: "raleway",sans-serif;
@@ -189,6 +189,7 @@ footer {
 
 section.copyright {
   float: left;
+  display: none;
 }
 
 section.social {
