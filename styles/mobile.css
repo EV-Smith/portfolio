@@ -205,8 +205,8 @@ section.about-text {
   padding: 3rem;
   width: 70%;
   margin: 0 auto;
-  background: #c6cbc9;
-  background: rgba(201,204,203, 0.75);
+  background: #d9d9d9;
+  background: rgba(217,217,217, 0.75);
   border: 3px solid #eaeaea;
 }
 
