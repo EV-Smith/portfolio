@@ -131,10 +131,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
   font-weight: 900;
-  color: #353535;
+  color: #7b7b7b;
   margin: 0;
 }
 
@@ -157,7 +157,7 @@ nav ul li {
   list-style-position: outside;
   list-style-type: none;
   display: block;
-  padding: 0 1.7rem 0 0;
+  padding: 0 1.5rem 0 0;
   float: left;
   margin: 0;
 }
@@ -194,7 +194,7 @@ section.copyright {
 
 section.social {
   float: right;
-  margin-right: 2%;
+  margin-right: 2rem;
 }
 
 section.social a {
@@ -203,19 +203,20 @@ section.social a {
 
 section.about-text {
   padding: 3rem;
-  margin-right: 3%;
-  float: right;
-  width: 15rem;
+  width: 70%;
+  margin: 0 auto;
+  background: #c6cbc9;
+  background: rgba(201,204,203, 0.75);
   border: 3px solid #eaeaea;
 }
 
 
 img.about-img {
   border-radius: 50%;
+  display: block;
   border: 3px solid #eaeaea;
-  float: left;
-  width: 17rem;
-  margin-left: 3%;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 
@@ -262,6 +263,8 @@ footer section.copyright.about p {
   padding: 1rem 2rem;
   border: 2px solid #565656;
   margin: 2% auto 6% auto;
+  background-color: #f0f0f0;
+  background-color: hsla(0, 0%, 94%, .75);
 }
 
 .current-page {
@@ -286,6 +289,7 @@ h1.active {
 
 .caption {
   margin: 0; 
+  font-size: .7rem;
 }
 
 video {
