@@ -78,7 +78,7 @@ html {
 }
 
 body {
-  width: 100%;
+  width: 92%;
   background-color: #fdfdfd;
   margin: 0 auto;
   font-family: "raleway",sans-serif;
@@ -131,10 +131,10 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
-  line-height: 2rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
   font-weight: 900;
-  color: #353535;
+  color: #7b7b7b;
   margin: 0;
 }
 
@@ -145,7 +145,7 @@ header {
 nav {
   margin: 0;
   width: 100%;
-  padding: 0 0 4rem 0;
+  padding: 0 0 3rem 0;
 }
 
 nav ul {
@@ -157,7 +157,7 @@ nav ul li {
   list-style-position: outside;
   list-style-type: none;
   display: block;
-  padding: 0 3rem 0 0;
+  padding: 0 1.5rem 0 0;
   float: left;
   margin: 0;
 }
@@ -183,17 +183,18 @@ nav ul li a.current {
 footer {
   clear: both;
   width: 100%;
-  height: 5rem;
-  padding: 5% 0 0 0;
+  height: 3rem;
+  padding: 10% 0 0 0;
 }
 
 section.copyright {
   float: left;
+  display: none;
 }
 
 section.social {
   float: right;
-  margin-right: 2%;
+  margin-right: 2rem;
 }
 
 section.social a {
@@ -202,19 +203,20 @@ section.social a {
 
 section.about-text {
   padding: 3rem;
-  margin-right: 3%;
-  float: right;
-  width: 15rem;
+  width: 70%;
+  margin: 0 auto;
+  background: #d9d9d9;
+  background: rgba(217,217,217, 0.75);
   border: 3px solid #eaeaea;
 }
 
 
 img.about-img {
   border-radius: 50%;
+  display: block;
   border: 3px solid #eaeaea;
-  float: left;
-  width: 17rem;
-  margin-left: 3%;
+  width: 80%;
+  margin: 2rem auto;
 }
 
 
@@ -222,22 +224,27 @@ footer section.copyright.about p {
   color: #eaeaea;
 }
 
+.sticky {
+  position: absolute;
+  left: 0;
+  bottom: 0; 
+}
+
 .homepage-bg {
-  background: url('../images/homepage-alt2.jpg') no-repeat;
+  background: url('../images/homepage-alt2.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   min-height: 100%;
 }
 
 .about-bg {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('../images/about-bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   min-height: 100%;
 }
 
@@ -252,10 +259,12 @@ footer section.copyright.about p {
 
 
 .home {
-  width: 25rem;
-  padding: 2rem 3rem;
+  width: 80%;
+  padding: 1rem 2rem;
   border: 2px solid #565656;
-  margin: 4% auto 6% auto;
+  margin: 2% auto 6% auto;
+  background-color: #f0f0f0;
+  background-color: hsla(0, 0%, 94%, .75);
 }
 
 .current-page {
@@ -271,11 +280,16 @@ h1.active {
 
 .photography {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 1rem 0;
 }
 
-.first-photo {
-  padding-top: -1rem;
+.last-photo {
+  padding-bottom: 2rem;
+}
+
+.caption {
+  margin: 0; 
+  font-size: .7rem;
 }
 
 video {
