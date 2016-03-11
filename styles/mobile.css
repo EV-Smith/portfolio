@@ -223,21 +223,20 @@ footer section.copyright.about p {
 }
 
 .homepage-bg {
-  background: url('../images/homepage-alt2.jpg') no-repeat;
+  background: url('../images/homepage-alt2.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   min-height: 100%;
 }
 
 .about-bg {
-  background: url('../images/about-bg.jpg') no-repeat;
+  background: url('../images/about-bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   min-height: 100%;
 }
 
@@ -252,8 +251,8 @@ footer section.copyright.about p {
 
 
 .home {
-  width: 25rem;
-  padding: 2rem 3rem;
+  width: 80%;
+  padding: 1rem 2rem;
   border: 2px solid #565656;
   margin: 4% auto 6% auto;
 }
@@ -271,7 +270,7 @@ h1.active {
 
 .photography {
   width: 100%;
-  padding: 2rem 1rem;
+  padding: 2rem 0;
 }
 
 .first-photo {
