@@ -274,8 +274,8 @@ h1.active {
   padding: 1rem 0;
 }
 
-.first-photo {
-  padding-top: 0;
+.last-photo {
+  padding-bottom: 2rem;
 }
 
 .caption {
