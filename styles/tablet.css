@@ -189,12 +189,10 @@ footer {
 
 section.copyright {
   float: left;
-  display: none;
 }
 
 section.social {
   float: right;
-  margin-right: 2rem;
 }
 
 section.social a {
@@ -202,8 +200,8 @@ section.social a {
 }
 
 section.about-text {
-  padding: 3rem;
-  width: 70%;
+  padding: .5rem 1.5rem;
+  width: 80%;
   margin: 0 auto;
   background: #d9d9d9;
   background: rgba(217,217,217, 0.75);
@@ -216,18 +214,12 @@ img.about-img {
   display: block;
   border: 3px solid #eaeaea;
   width: 80%;
-  margin: 2rem auto;
+  margin: 0 auto 1rem auto;
 }
 
 
 footer section.copyright.about p {
   color: #eaeaea;
-}
-
-.sticky {
-  position: absolute;
-  left: 0;
-  bottom: 0; 
 }
 
 .homepage-bg {
@@ -259,7 +251,7 @@ footer section.copyright.about p {
 
 
 .home {
-  width: 80%;
+  width: 55%;
   padding: 1rem 2rem;
   border: 2px solid #565656;
   margin: 2% auto 6% auto;

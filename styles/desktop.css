@@ -182,9 +182,8 @@ nav ul li a.current {
 
 footer {
   clear: both;
-  width: 100%;
-  height: 5rem;
-  padding: 6% 0 0 0;
+  width: 95%;
+  height: 4rem;
 }
 
 section.copyright {
@@ -202,10 +201,10 @@ section.social a {
 
 section.about-text {
   padding: 1.7rem 3rem;
-  margin-right: 3%;
-  float: right;
+  margin-left: 3%;
+  float: left;
   width: 17rem;
-  background: rgba(201,204,203, 0.4); 
+  background: rgba(201,204,203, 0.7); 
   border: 3px solid #eaeaea;
 }
 
@@ -213,13 +212,13 @@ section.about-text {
 img.about-img {
   border-radius: 50%;
   border: 3px solid #eaeaea;
-  float: left;
+  float: right;
   width: 17rem;
-  margin-left: 3%;
+  margin-right: 6%;
 }
 
 footer.about {
-  padding: 3.5% 0 0 0 !important;
+  padding: 5% 0 0 0 !important;
 }
 
 footer section.copyright.about p {
@@ -260,6 +259,16 @@ footer section.copyright.about p {
 
 .current-page {
   font-weight: 600;
+}
+
+.sticky {
+  position: absolute;
+  bottom: 0; 
+}
+
+.sticky-about {
+  position: absolute;
+  bottom: 0; 
 }
 
 
