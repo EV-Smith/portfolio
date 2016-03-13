@@ -141,9 +141,9 @@ h2 {
 }
 
 h3 {
-  font-size: 1rem;
+  font-size: .9rem;
   line-height: 1.8rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #7b7b7b;
   margin: 0;
 }
@@ -175,6 +175,7 @@ nav ul li {
 nav ul li a {
   color: #353535;
   font-weight: 500;
+  font-size: 1rem;
 }
 
 nav ul li a:hover {
@@ -267,14 +268,6 @@ footer section.copyright.about p {
   min-height: 100%;
 }
 
-
-.title {
-  font-size: 5rem;
-}
-
-.subtitle {
-  font-size: 2rem;
-}
 
 
 .home {
