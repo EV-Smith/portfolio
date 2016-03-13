@@ -134,7 +134,7 @@ h2 {
 h3 {
   font-size: 1.2rem;
   line-height: 2rem;
-  font-weight: 900;
+  font-weight: 600;
   color: #353535;
   margin: 0;
 }
@@ -280,6 +280,11 @@ footer section.copyright.about p {
 
 .first-photo {
   margin-top: -1.5rem;
+}
+
+.caption-detail {
+  margin-top: .5rem; 
+  font-style: italic;
 }
 
 video {
