@@ -145,8 +145,8 @@ header {
 
 nav {
   margin: 0 0 1rem 0;
-  width: 50%;
-  padding: 5.8rem 0 2rem 0;
+  width: 100%;
+  padding: 4.8rem 0 2rem 0;
   float: right;
 }
 
@@ -184,7 +184,7 @@ nav ul li a.current {
 
 .header {
   float: left;
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 
 footer {
@@ -262,7 +262,7 @@ footer section.copyright.about p {
   width: 25rem;
   padding: 2rem 3rem;
   border: 2px solid #565656;
-  margin: 12rem auto 5rem auto; 
+  margin: 5% auto; 
 }
 
 .current-page {
