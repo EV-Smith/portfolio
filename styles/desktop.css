@@ -145,8 +145,9 @@ header {
 
 nav {
   margin: 0 0 1rem 0;
-  width: 100%;
-  padding: 0 0 4% 0;
+  width: 50%;
+  padding: 5.8rem 0 2rem 0;
+  float: right;
 }
 
 nav ul {
@@ -159,7 +160,7 @@ nav ul li {
   list-style-type: none;
   display: block;
   padding: 0 3rem 0 0;
-  float: left;
+  float: right;
   margin: 0;
 }
 
@@ -179,6 +180,11 @@ nav ul li a:active {
 nav ul li a.current {
   color: #FF503B;  
   font-weight: 600;
+}
+
+.header {
+  float: left;
+  padding-top: 2rem;
 }
 
 footer {
@@ -252,10 +258,11 @@ footer section.copyright.about p {
 
 
 .home {
+  clear: both;
   width: 25rem;
   padding: 2rem 3rem;
   border: 2px solid #565656;
-  margin: 4% auto 6% auto;
+  margin: 12rem auto 5rem auto; 
 }
 
 .current-page {
@@ -275,7 +282,12 @@ footer section.copyright.about p {
 
 .photography {
   width: 70%;
+  max-width: 960px;
   padding: 2rem 0;
+}
+
+.first {
+ clear: both; 
 }
 
 .first-photo {
@@ -287,6 +299,10 @@ footer section.copyright.about p {
   font-style: italic;
 }
 
+.photo-set {
+ clear: both; 
+}
+
 video {
   width: 95%;
   height: auto;
@@ -295,6 +311,39 @@ video {
 
 .video-text {
   padding-right: 2.5rem;
+}
+
+.thumb {
+  width: 95%;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.thumbcaption {
+  position: absolute;
+  width: 45%;
+  z-index: 10;
+  color: #ffffff;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  opacity: 0;
+   -webkit-transition: all .5s ease-out 0s;
+  -moz-transition: all .5s ease-out 0s;
+  -ms-transition: all .5s ease-out 0s;
+  -o-transition: all .5s ease-out 0s;
+  transition: all .25s ease-out 0s;
+}
+
+.thumbcaption h3 {
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 25% 0 0 0;
+  text-align: center;
+}
+
+.thumbcaption p {
+  color: #ffffff;
+  text-align: center;
 }
 
 

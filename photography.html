@@ -15,8 +15,10 @@
   
 <body>
   <header>
-     <a href="index.html"><h1>E.V. SMITH</h1></a>
-     <h2>Digital Marketing Sorceress</h2> 
+    <div class="header">
+      <a href="index.html"><h1>E.V. SMITH</h1></a>
+      <h2>Digital Marketing Sorceress</h2> 
+    </div>
     <nav>
       <ul>
         <li><a href="videography.html">videography</a></li>
@@ -25,55 +27,135 @@
       </ul>
     </nav>
   </header>
-   <section> 
-      <h3>October 31, 2015</h3>
-     <p class="caption">Barlon Mand&oacute; at Parliament Tavern</p>
-     <p class="caption-detail">Nikon d5300 | Nikkor 50mm f/1.8</p>
-            <img class="photography" src="images/photography/halloween-2015-02.jpg" alt="Cesar and Emilie in the space">
-            <img class="photography" src="images/photography/halloween-2015-01.jpg" alt="Cesar in his band space">
-            <img class="photography" src="images/photography/halloween-2015-04.jpg" alt="Cesar playing a show at the Parlament">
-            <img class="photography" src="images/photography/halloween-2015-05.jpg" alt="Cesar smoking">
-            <img class="photography" src="images/photography/halloween-2015-06.jpg" alt="Emilie smoking">
-            <img class="photography" src="images/photography/halloween-2015-08.jpg" alt="Ariel as an elf pirate">
-            <img class="photography last-photo" src="images/photography/halloween-2015-09.jpg" alt="Emilie and Ariel">
-    </section>
-    <section> 
-      <h3>July 4, 2015</h3>
-      <p class="caption">South Park 4th</p>
-      <p class="caption-detail">Nikon d5300 | Nikkor 50mm f/1.8</p>
-            <img class="photography" src="images/photography/2015-07-04_01.JPG" alt="Barbie helping the girls with the sparklers">
-            <img class="photography" src="images/photography/2015-07-04_02.JPG" alt="Barbie helping the girls with the sparklers">
-            <img class="photography" src="images/photography/2015-07-04_03.JPG" alt="Girls holding out their sprinklers">
-            <img class="photography" src="images/photography/2015-07-04_04.jpg" alt="Ariel in profile with blue hair">
-            <img class="photography" src="images/photography/2015-07-04_05.jpg" alt="Silhouette of a boy over ground sparklers in the dark">
-            <img class="photography" src="images/photography/2015-07-04_06.JPG" alt="Barbie lighting Cela's noisemakers">
-            <img class="photography" src="images/photography/2015-07-04_07.JPG" alt="Crowd and ground sparkler">
-            <img class="photography" src="images/photography/2015-07-04_08.JPG" alt="The guys lighting a paper lantern">
-            <img class="photography" src="images/photography/2015-07-04_09.JPG" alt="Cleanup">
-            <img class="photography last-photo" src="images/photography/2015-07-04_11.JPG" alt="Barbie and Amy with sparklers">
-    </section>
-    <section>
-      <h3>August 2014</h3>
-      <p class="caption">Seattle and the Oregon Coast</p>
-      <p class="caption-detail">Pentax K100 | Kodak 400, 35mm b&amp;w film</p>
+    
+    <div class="section group">
+      <!-- Left Column -->
+      <div class="col span_1_of_2">      
+        <!-- Thumb 4 -->
+        <div class="thumbcaption" id="thumbCaption4">
+          <a href="photography/2015-12_2016-04.html">
+            <h3>Winthrop &amp; Seattle</h3>
+              <p class="caption">Winter 2015 &amp; Spring 2016</p>
+              <p class="caption-detail">Canon Ftb | Kodak 400, 35mm b&amp;w film</p>
+          </a>
+        </div>
+        <a onmouseover="displayCaption4();" onmouseleave="displayThumb4();" href="photography/2015-12_2016-04.html">
+          <div  id="thumb4">
+            <img class="thumb" src="images/photography/2015-12_01.jpg">
+          </div>
+        </a>        
+      </div>
+      <!-- Right Column -->
+      <div class="col span_1_of_2">    
+        <!-- Thumb 3 -->
+        <div class="thumbcaption" id="thumbCaption3">
+          <a href="photography/2015-10-31.html">
+            <h3>Barlon Mand&oacute; at Parliament Tavern</h3>
+              <p class="caption">October 31, 2015</p>
+              <p class="caption-detail">Nikon d5300 | Nikkor 50mm f/1.8</p>
+          </a>
+        </div>
+        <a onmouseover="displayCaption3();" onmouseleave="displayThumb3();" href="photography/2015-10-31.html">
+          <div  id="thumb3">
+            <img id="thumb3" class="thumb" src="images/photography/halloween-2015-02.jpg">
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    
+    <div class="section group">
+      <!-- Left Column -->
+      <div class="col span_1_of_2"> 
+        <!-- Thumb 2 -->
+        <div class="thumbcaption" id="thumbCaption2">
+          <a href="photography/2015-07-04.html">
+            <h3>South Park 4th</h3>
+              <p class="caption">4th of July, 2015</p>
+              <p class="caption-detail">Nikon d5300 | Nikkor 50mm f/1.8</p>
+          </a>
+        </div>  
+        <a onmouseover="displayCaption2();" onmouseleave="displayThumb2();" href="photography/2015-07-04.html">
+          <div  id="thumb2">
+            <img id="thumb2" class="thumb" src="images/photography/2015-07-04_01.jpg">
+          </div>
+        </a>
+      </div>
+      <!-- Right Column -->
+      <div class="col span_1_of_2">
+        <!-- Thumb 1 -->
+        <div class="thumbcaption" id="thumbCaption1">
+          <a href="photography/2014-08.html">
+            <h3>Seattle and the Oregon Coast</h3>
+              <p class="caption">August 2014</p>
+              <p class="caption-detail">Pentax K100 | Kodak 400, 35mm b&amp;w film</p>
+          </a>
+        </div> 
+        <a onmouseover="displayCaption1();" onmouseleave="displayThumb1();" href="photography/2014-08.html">
+          <div id="thumb1">
+            <img id="thumb1" class="thumb" src="images/photography/oregon-coast-01.JPG">
+          </div>
+        </a>
+      </div>
+    </div>
       
-            <img class="photography" src="images/photography/oregon-coast-01.JPG" alt="Cesar and Emilie in the space">
-            <img class="photography" src="images/photography/oregon-coast-02.JPG" alt="Emilie in the ocean">
-            <img class="photography" src="images/photography/oregon-coast-03.JPG" alt="Cesar with raised eyebrow">
-            <img class="photography" src="images/photography/oregon-coast-04.JPG" alt="Jeeps in the dunes">
-            <img class="photography last-photo" src="images/photography/oregon-coast-05.JPG" alt="Husky on the beach">      
-    </section>
+
       <footer>
     <section class="copyright">
       <p>&copy; E.V. Smith 2016</p>
     </section>
     <section class="social">
-      <a href="https://www.facebook.com/emilievirginia" target="_blank"><i class="fa fa-facebook-square fa-2x"></i> </a>
+
       <a href="https://instagram.com/emilie_virginia/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
       <a href="https://vimeo.com/user34407058" target="_blank"><i class="fa fa-vimeo-square fa-2x"></i></a>
       <a href="https://github.com/EV-Smith/" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
       <a href="https://www.linkedin.com/in/emilievirginia" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
     </section>
   </footer>
+  
+  <script src="scripts/script.js"  type="text/javascript"></script>
+   <script>
+    //Thumb 4 Caption Functions
+    function displayCaption4() {
+      document.getElementById('thumb4').innerHTML = '<img class="thumb" src="images/photography/2015-12_01-overlay.jpg">'; 
+      document.getElementById('thumbCaption4').style.opacity="1";
+    }
+    function displayThumb4() {
+      document.getElementById('thumb4').innerHTML = '<img class="thumb" src="images/photography/2015-12_01.jpg">'; 
+      document.getElementById('thumbCaption4').style.opacity="0";
+    }
+    
+    //Thumb 3 Caption Functions
+    function displayCaption3() {
+      document.getElementById('thumb3').innerHTML = '<img class="thumb" src="images/photography/halloween-2015-02-overlay.jpg">'; 
+      document.getElementById('thumbCaption3').style.opacity="1";
+    }
+    function displayThumb3() {
+      document.getElementById('thumb3').innerHTML = '<img class="thumb" src="images/photography/halloween-2015-02.jpg">'; 
+      document.getElementById('thumbCaption3').style.opacity="0";
+    }
+    
+    //Thumb 2 Caption Functions
+    function displayCaption2() {
+      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01-overlay.jpg">'; 
+      document.getElementById('thumbCaption2').style.opacity="1";
+    }
+    function displayThumb2() {
+      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01.jpg">'; 
+      document.getElementById('thumbCaption2').style.opacity="0";
+    }
+    
+    //Thumb 1 Caption Functions
+    function displayCaption1() {
+      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01-overlay.jpg">'; 
+      document.getElementById('thumbCaption1').style.opacity="1";
+    }
+    function displayThumb1() {
+      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.jpg">'; 
+      document.getElementById('thumbCaption1').style.opacity="0";
+    }
+  
+  
+  </script>
   </body>
 </html>
