@@ -1,4 +1,4 @@
-/*  Bootstrap Grid CSS  */
+/* ------------------------------------------------------------ Bootstrap Grid CSS ---------------------------------------------------- */
 
 /*  SECTIONS  */
 .section {
@@ -40,9 +40,9 @@
 	width: 49.2%;
 }
 
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+/*  GO FULL WIDTH AT LESS THAN 580 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
 	.span_2_of_2 {
 		width: 100%; 
 	}
@@ -70,7 +70,7 @@
 }
 
 
-/*  My Styles  */ 
+/* ------------------------------------------------------------ My Styles ----------------------------------------------------------------- */ 
 
 html {
   height: 100%;
