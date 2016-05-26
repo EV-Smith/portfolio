@@ -143,6 +143,11 @@ header {
     min-height: 20%;
 }
 
+.header {
+  float: left;
+  padding-top: 1rem;
+}
+
 nav {
   margin: 0 0 1rem 0;
   width: 100%;
@@ -180,11 +185,6 @@ nav ul li a:active {
 nav ul li a.current {
   color: #FF503B;  
   font-weight: 600;
-}
-
-.header {
-  float: left;
-  padding-top: 1rem;
 }
 
 footer {
@@ -346,6 +346,9 @@ video {
   text-align: center;
 }
 
+.thumbcaption-mobile {
+  display: none;
+}
 
 /*  Font Awesome Icon styline */
 
