@@ -1,4 +1,3 @@
-<script type="text/javascript">
     //Thumb 4 Caption Functions
     function displayCaption4() {
       document.getElementById('thumb4').innerHTML = '<img class="thumb" src="images/photography/2015-12_01-overlay.jpg">'; 
@@ -38,6 +37,3 @@
       document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.jpg">'; 
       document.getElementById('thumbCaption1').style.opacity="0";
     }
-  
-  
-  </script>
