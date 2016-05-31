@@ -1,4 +1,112 @@
-    //Thumb 4 Caption Functions
+//code from http://blog.teamtreehouse.com/building-custom-controls-for-html5-videos
+      // Video
+      var video = document.getElementById("video");
+
+      // Buttons
+      var playButton = document.getElementById("play-pause");
+      var muteButton = document.getElementById("mute");
+      var fullScreenButton = document.getElementById("full-screen");
+
+      // Sliders
+      var seekBar = document.getElementById("seek-bar");
+      var volumeBar = document.getElementById("volume-bar");
+
+    
+    // Event listener for the play/pause button
+    playButton.addEventListener("click", function(){
+      if (video.paused == true) {
+      // Play the video
+      video.play();
+       // Update the button Pause
+      playButton.innerHTML = '<i class="fa fa-pause-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
+      } else {
+      // Pause the video
+      video.pause();
+      // Update the button text to 'Play'
+     }
+    });
+
+    playButton.addEventListener("mouseover", function(){
+          if (video.paused == true) {
+          playButton.innerHTML = '<i class="fa fa-pause-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
+          } else {
+          playButton.innerHTML = '<i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
+         }
+        });
+  
+
+  
+
+    // Event listener for the mute button
+      muteButton.addEventListener("click", function() {
+        if (video.muted == false) {
+          // Mute the video
+          video.muted = true;
+
+          // Update the button text
+          muteButton.innerHTML = "Unmute";
+        } else {
+          // Unmute the video
+          video.muted = false;
+
+          // Update the button text
+          muteButton.innerHTML = "Mute";
+        }
+      });
+
+      // Event listener for the full-screen button
+      fullScreenButton.addEventListener("click", function() {
+        if (video.requestFullscreen) {
+          video.requestFullscreen();
+        } else if (video.mozRequestFullScreen) {
+          video.mozRequestFullScreen(); // Firefox
+        } else if (video.webkitRequestFullscreen) {
+          video.webkitRequestFullscreen(); // Chrome and Safari
+        }
+      });
+
+    // Event listener for the seek bar
+    seekBar.addEventListener("change", function() {
+      // Calculate the new time
+      var time = video.duration * (seekBar.value / 100);
+
+      // Update the video time
+      video.currentTime = time;
+    });
+
+    // Update the seek bar as the video plays
+    video.addEventListener("timeupdate", function() {
+      // Calculate the slider value
+      var value = (100 / video.duration) * video.currentTime;
+
+      // Update the slider value
+      seekBar.value = value;
+    });
+
+    // Pause the video when the slider handle is being dragged
+    seekBar.addEventListener("mousedown", function() {
+      video.pause();
+    });
+
+    // Play the video when the slider handle is dropped
+    seekBar.addEventListener("mouseup", function() {
+      video.play();
+    });
+  
+    // Event listener for the volume bar
+    volumeBar.addEventListener("change", function() {
+      // Update the video volume
+      video.volume = volumeBar.value;
+    });
+
+
+// -----------------------------------------------MY CODE ----------------------------------------------------------
+
+
+
+
+/*
+//Thumb 4 Caption Functions
     if (screen.width >= 851) {
       document.getElementById('thumb4').addEventListener('mouseover', displayCaption4);
     }
@@ -49,7 +157,7 @@
       document.getElementById('thumbCaption2').style.opacity="1";
     }
     function displayThumb2() {
-      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01.jpg">'; 
+      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01.JPG">'; 
       document.getElementById('thumbCaption2').style.opacity="0";
     }
     
@@ -67,6 +175,8 @@
       document.getElementById('thumbCaption1').style.opacity="1";
     }
     function displayThumb1() {
-      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.jpg">'; 
+      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.JPG">'; 
       document.getElementById('thumbCaption1').style.opacity="0";
     }
+
+*\

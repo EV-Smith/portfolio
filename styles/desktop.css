@@ -319,6 +319,15 @@ video {
   margin-bottom: 1rem;
 }
 
+.thumb-overlay {
+  position: relative;
+  z-index: 5;
+  width: 95%;
+  height: auto;
+  margin-bottom: 1rem;
+  float: left;
+}
+
 .thumbcaption {
   position: absolute;
   width: 45%;
@@ -374,4 +383,116 @@ i.about-social:hover {
 
 i.about-social:active {
   color: #7F342B;
+}
+
+
+
+/* Video controls */
+
+.video-container {
+  width: 100%;
+  height: auto;
+}
+
+#video-controls i {
+  color: #eaeaea; 
+}
+
+
+#video-controls i:hover {
+  color: #FF503B; 
+}
+
+#play-pause i {
+  color: #FF503B;
+}
+
+#video-controls {
+    position: absolute;
+    width: 44%;
+    margin-top: 9%;
+	padding: 5px;
+    z-index: 20;
+}
+	
+#play-pause {
+  text-align: center;
+  position: relative;
+  margin-bottom: 15%;
+  z-index: 20;
+  display: block;
+}
+
+#seek-bar {
+  width: 60%;
+}
+
+#volume-bar {
+  width: 15%; 
+  padding: 0 0 0 3%;
+}
+
+#full-screen {
+ padding: 0 0 0 3%; 
+}
+
+input[type=range]{
+    -webkit-appearance: none;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #cccccc;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    height: 3px;
+    background: #cccccc;
+    border: none;
+    border-radius: 3px;
+    margin-top: -20px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background: #eaeaea;
+  margin-top: -5px;
+  cursor: pointer;
+}
+
+/* Firefox */
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #eaeaea;
+  cursor: pointer;
+}
+
+/* IE */
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: #eaeaea;
+  cursor: pointer;
+}
+
+/* These fill styles aren't working, figure out later */
+
+input[type=range]:focus::-ms-fill-lower {
+    background-color: #777777;
+}
+input[type=range]:focus::-ms-fill-upper {
+    background-color: #cccccc;
 }
