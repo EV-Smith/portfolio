@@ -74,7 +74,7 @@
       document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.JPG">'; 
       document.getElementById('thumbCaption1').style.opacity="0";
     }
-
+/*
 //code from http://blog.teamtreehouse.com/building-custom-controls-for-html5-videos
       // Video
       var video = document.getElementById("video");
@@ -185,3 +185,4 @@
       // Update the video volume
       video.volume = volumeBar.value;
     });
+*/
