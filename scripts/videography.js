@@ -1,6 +1,9 @@
 //code from http://blog.teamtreehouse.com/building-custom-controls-for-html5-videos
       // Video
       var video = document.getElementById("video");
+      
+      // Video Controls
+      var videoControls = document.getElementById("video-controls");
 
       // Buttons
       var playButton = document.getElementById("play-pause");
@@ -11,29 +14,54 @@
       var seekBar = document.getElementById("seek-bar");
       var volumeBar = document.getElementById("volume-bar");
 
+      // Containers
+      var playContainer = document.getElementById("play-pause-container");
+
     
+    //Display controls on hover
+    videoControls.addEventListener("mouseenter", function(){
+      videoControls.style.opacity="1";
+    });
+
+    videoControls.addEventListener("mouseleave", function(){
+      //keep controls on when video is paused
+      if (video.paused == true) {
+      videoControls.style.opacity="1";
+      } else {
+      // hide controls when video is playing
+      videoControls.style.opacity="0";
+     }
+    });
+                        
+
     // Event listener for the play/pause button
     playButton.addEventListener("click", function(){
       if (video.paused == true) {
       // Play the video
       video.play();
-       // Update the button Pause
-      playButton.innerHTML = '<i class="fa fa-pause-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
+      videoControls.style.opacity="0";
       } else {
       // Pause the video
       video.pause();
-      // Update the button text to 'Play'
-      playButton.innerHTML = '<i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>';  
      }
     });
 
     playButton.addEventListener("mouseover", function(){
-          if (video.paused == true) {
-          playButton.innerHTML = '<i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
-          } else {
-          playButton.innerHTML = '<i class="fa fa-pause-circle fa-5x" aria-hidden="true" id="play-pause"></i>';
-         }
-        });
+      if (video.paused == true) {
+      playButton.className = "fa fa-play-circle fa-5x";
+      } else {
+      playButton.className = "fa fa-pause-circle fa-5x";
+      }
+    });
+
+  playButton.addEventListener("mouseleave", function(){
+      if (video.paused == true) {
+      playButton.className = "fa fa-play-circle fa-5x";
+      } else {
+      playButton.className = "fa fa-play-circle fa-5x";
+      }
+    });
+ 
   
 
   
@@ -45,23 +73,17 @@
           video.muted = true;
 
           // Update the button text
-          muteButton.innerHTML = "Unmute";
+          muteButton.className = "fa fa-volume-off fa-2x";
         } else {
           // Unmute the video
           video.muted = false;
 
           // Update the button text
-          muteButton.innerHTML = "Mute";
+          muteButton.className = "fa fa-volume-up fa-2x";
         }
       });
 
-       muteButton.addEventListener("mouseover", function(){
-          if (video.muted == true) {
-          muteButton.innerHTML = '<i class="fa fa-volume-up fa-2x" aria-hidden="true" id="mute"></i>';
-          } else {
-          muteButton.innerHTML = '<i class="icon-volume-off icon-5x" aria-hidden="true" id="mute"></i>';
-         }
-        });
+      
 
 
       // Event listener for the full-screen button

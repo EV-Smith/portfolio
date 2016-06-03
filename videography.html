@@ -10,7 +10,7 @@
   <link rel="stylesheet" type="text/css" href="styles/mobile.css" media="screen and (min-width:1px) and (max-width:500px)">
   <link rel="stylesheet" type="text/css" href="styles/tablet.css" media="screen and (min-width:501px) and (max-width:850px)">
   <link rel="stylesheet" type="text/css" href="styles/desktop.css" media="screen and (min-width:851px) and (max-width:3048px)">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css">
   <script src="https://use.typekit.net/jns7pof.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   
@@ -34,13 +34,15 @@
         </nav>
       </div>
     </div>
-
+  
   <div class="section group">
 	<div class="col span_1_of_2">
         <div class="video-container">  
           <!-- Video Controls -->
           <div id="video-controls">
-            <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>
+            <div id="play-pause-container">
+              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>
+            </div>
             <input type="range" id="seek-bar" value="0">
             <i class="fa fa-volume-up fa-2x" id="mute" aria-hidden="true"></i>
             <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
