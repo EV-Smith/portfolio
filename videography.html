@@ -38,39 +38,60 @@
   <div class="section group">
 	<div class="col span_1_of_2">
         <div class="video-container">  
-          <!-- Video Controls -->
-          <div id="video-controls">
-            <div id="play-pause-container">
-              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause"></i>
+          <!-- Video 4 Controls -->
+          
+          <div id="video-controls4" class="video-controls">
+            <div id="play-pause-container4" class="play-pause-container">
+              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause4"></i>
             </div>
-            <input type="range" id="seek-bar" value="0">
-            <i class="fa fa-volume-up fa-2x" id="mute" aria-hidden="true"></i>
-            <input type="range" id="volume-bar" min="0" max="1" step="0.1" value="1">
-            <i class="fa fa-expand fa-2x" aria-hidden="true" id="full-screen"></i>
+            <input type="range" id="seek-bar4" class="seek-bar" value="0">
+            <i class="fa fa-volume-up fa-2x mute" id="mute4" aria-hidden="true"></i>
+            <input type="range" id="volume-bar4" class="volume-bar" min="0" max="1" step="0.1" value="1">
+            <i class="fa fa-expand fa-2x full-screen" aria-hidden="true" id="full-screen4"></i>
           </div>
           
-          <video id="video" poster="images/video-graypants.jpg">
+          
+          <!-- Video 4 -->
+          <video id="video4" poster="images/video-graypants.jpg">
             <source src="videos/graypants.mp4" type="video/mp4">
             <p>
             Your browser doesn't support HTML5 video.
             You can watch the video <a href="https://vimeo.com/124455502">on vimeo</a> instead.
             </p>
-          </video>
-          
+          </video>  
         </div>
+      
+        <!-- Video 4 Caption -->
           <div class="video-text">
             <h3>Graypants Studio 'Cloud' installation</h3>
             <p>I visited graypants design studio in their gorgeous SoDo space to capture a couple of their designers working on 'Cloud' before it was installed at Bellevue Arts Museum. The large hanging light was created with 14,000 ping-pong balls hand stitched onto a metal frame.</p>
           </div>
     </div>
-    <div class="col span_1_of_2">
-         <video controls poster="images/video-war.jpg">
+      <div class="col span_1_of_2">
+        <div class="video-container">  
+          <!-- Video 3 Controls -->
+          
+          <div id="video-controls3" class="video-controls">
+            <div id="play-pause-container3" class="play-pause-container">
+              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause3"></i>
+            </div>
+            <input type="range" id="seek-bar3" class="seek-bar" value="0">
+            <i class="fa fa-volume-up fa-2x mute" id="mute3" aria-hidden="true"></i>
+            <input type="range" id="volume-bar3" class="volume-bar" min="0" max="1" step="0.1" value="1">
+            <i class="fa fa-expand fa-2x full-screen" aria-hidden="true" id="full-screen3"></i>
+          </div>
+        
+        <!-- Video 3 -->
+         <video class="video" id="video3" poster="images/video-war.jpg">
             <source src="videos/war.mp4" type="video/mp4">
             <p>
             Your browser doesn't support HTML5 video.
             You can watch the video <a href="https://vimeo.com/131244784">on vimeo</a> instead.
             </p>
           </video>
+        </div>
+        
+        <!-- Video 3 Caption -->
           <div class="video-text">
             <h3>'Let's Play War!' Stop Motion Animation</h3>
             <p>New York based fiber artist Nathan Vincent and I created this stop motion animation as an extension of his installation at BAM. The animation simulates the 'play' referenced in the exhibition's title and explicitly demonstrates the dynamic nature of the show.</p>
@@ -79,26 +100,60 @@
   </div>
   <div class="section group">
 	<div class="col span_1_of_2">
-          <video controls poster="images/video-ae2015.jpg">
+      
+      <div class="video-container">  
+          <!-- Video 2 Controls -->
+          
+          <div id="video-controls2" class="video-controls">
+            <div id="play-pause-container2" class="play-pause-container">
+              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause2"></i>
+            </div>
+            <input type="range" id="seek-bar2" class="seek-bar" value="0">
+            <i class="fa fa-volume-up fa-2x mute" id="mute2" aria-hidden="true"></i>
+            <input type="range" id="volume-bar2" class="volume-bar" min="0" max="1" step="0.1" value="1">
+            <i class="fa fa-expand fa-2x full-screen" aria-hidden="true" id="full-screen2"></i>
+          </div>
+        
+        <!-- Video 2 -->
+          <video class="video" id="video2" poster="images/video-ae2015.jpg">
             <source src="videos/auction.mp4" type="video/mp4">
             <p>
             Your browser doesn't support HTML5 video.
             You can watch the video <a href="https://vimeo.com/151079636">on vimeo</a> instead.
             </p>
           </video>
+      </div>
+          
+      <!-- Video 2 Caption -->
           <div class="video-text">
             <h3>Artful Evening Auction Video</h3>
             <p>This video captures what Bellevue Arts Museum was able to accomplish in 2015 with the help of our dedicated arts community. The main speaker featured in the video is Stefano Catalani, BAM's director of Art, Craft, &amp; Design.</p>
           </div>
     </div>
 	<div class="col span_1_of_2">
-         <video controls poster="images/video-araluce.jpg">
+      <div class="video-container">  
+          <!-- Video 1 Controls -->
+          
+          <div id="video-controls1" class="video-controls">
+            <div id="play-pause-container1" class="play-pause-container">
+              <i class="fa fa-play-circle fa-5x" aria-hidden="true" id="play-pause1"></i>
+            </div>
+            <input type="range" id="seek-bar1" class="seek-bar" value="0">
+            <i class="fa fa-volume-up fa-2x mute" id="mute1" aria-hidden="true"></i>
+            <input type="range" id="volume-bar1" class="volume-bar" min="0" max="1" step="0.1" value="1">
+            <i class="fa fa-expand fa-2x full-screen" aria-hidden="true" id="full-screen1"></i>
+          </div>
+        
+        <!-- Video 1 -->
+         <video class="video" id="video1" poster="images/video-araluce.jpg">
             <source src="videos/araluce.mp4" type="video/mp4">
             <p>
             Your browser doesn't support HTML5 video.
             You can watch the video <a href="https://vimeo.com/123262802">on vimeo</a> instead.
             </p>
           </video>
+      </div>
+      <!-- Video 1 Caption -->
           <div class="video-text">
             <h3>Rick Araluce: 'The Terrorist'</h3>
             <p>Seattle based artist and Seattle Opera set designer Rick Araluce discusses his piece <em>The Terrorist</em>. The work was created for Bellevue Arts Museum third biennial, <em>Knock on Wood</em>.</p>
