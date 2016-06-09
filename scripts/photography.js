@@ -1,77 +1,100 @@
 
-
-// -----------------------------------------------MY CODE ----------------------------------------------------------
-
 //Thumb 4 Caption Functions
+
+var thumbFour = document.getElementById('thumb4');
+var thumbCaptionFour = document.getElementById('thumbCaption4');
+
     if (screen.width >= 851) {
-      document.getElementById('thumb4').addEventListener('mouseover', displayCaption4);
+      thumbFour.addEventListener('mouseover', displayCaption4);
+      thumbCaptionFour.addEventListener('mouseover', displayCaption4);
     }
 
     if (screen.width >= 851) {
-      document.getElementById('thumb4').addEventListener('mouseout', displayThumb4);
+      thumbFour.addEventListener('mouseout', displayThumb4);
+      thumbCaptionFour.addEventListener('mouseout', displayThumb4);
     }
 
     function displayCaption4() {
-      document.getElementById('thumbCaption4').style.opacity="1";
-      document.getElementById('thumb4').innerHTML = '<img class="thumb" src="images/photography/2015-12_01-overlay.jpg">'; 
+      thumbCaptionFour.style.opacity="1";
+      thumbFour.className = "thumb4-overlay thumb"; 
     }
 
     function displayThumb4() {
-      document.getElementById('thumb4').innerHTML = '<img class="thumb" src="images/photography/2015-12_01.jpg">'; 
-      document.getElementById('thumbCaption4').style.opacity="0";
+      thumbFour.className = "thumb thumb4"; 
+      thumbCaptionFour.style.opacity="0";
     }
-    
-    //Thumb 3 Caption Functions
+
+//Thumb 3 Caption Functions
+
+var thumbThree = document.getElementById('thumb3');
+var thumbCaptionThree = document.getElementById('thumbCaption3');
+
     if (screen.width >= 851) {
-      document.getElementById('thumb3').addEventListener('mouseover', displayCaption3);
+      thumbThree.addEventListener('mouseover', displayCaption3);
+      thumbCaptionThree.addEventListener('mouseover', displayCaption3);
     }
 
     if (screen.width >= 851) {
-      document.getElementById('thumb3').addEventListener('mouseout', displayThumb3);
+      thumbThree.addEventListener('mouseout', displayThumb3);
+      thumbCaptionThree.addEventListener('mouseout', displayThumb3);
     }
 
     function displayCaption3() {
-      document.getElementById('thumb3').innerHTML = '<img class="thumb" src="images/photography/halloween-2015-02-overlay.jpg">'; 
-      document.getElementById('thumbCaption3').style.opacity="1";
+      thumbCaptionThree.style.opacity="1";
+      thumbThree.className = "thumb3-overlay thumb"; 
     }
+
     function displayThumb3() {
-      document.getElementById('thumb3').innerHTML = '<img class="thumb" src="images/photography/halloween-2015-02.jpg">'; 
-      document.getElementById('thumbCaption3').style.opacity="0";
+      thumbThree.className = "thumb thumb3"; 
+      thumbCaptionThree.style.opacity="0";
     }
-    
-    //Thumb 2 Caption Functions
-     if (screen.width >= 851) {
-      document.getElementById('thumb2').addEventListener('mouseover', displayCaption2);
+
+//Thumb 2 Caption Functions
+
+var thumbTwo = document.getElementById('thumb2');
+var thumbCaptionTwo = document.getElementById('thumbCaption2');
+
+    if (screen.width >= 851) {
+      thumbTwo.addEventListener('mouseover', displayCaption2);
+      thumbCaptionTwo.addEventListener('mouseover', displayCaption2);
     }
 
     if (screen.width >= 851) {
-      document.getElementById('thumb2').addEventListener('mouseout', displayThumb2);
+      thumbTwo.addEventListener('mouseout', displayThumb2);
+      thumbCaptionTwo.addEventListener('mouseout', displayThumb2);
     }
 
     function displayCaption2() {
-      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01-overlay.jpg">'; 
-      document.getElementById('thumbCaption2').style.opacity="1";
+      thumbCaptionTwo.style.opacity="1";
+      thumbTwo.className = "thumb2-overlay thumb"; 
     }
+
     function displayThumb2() {
-      document.getElementById('thumb2').innerHTML = '<img class="thumb" src="images/photography/2015-07-04_01.JPG">'; 
-      document.getElementById('thumbCaption2').style.opacity="0";
+      thumbTwo.className = "thumb thumb2"; 
+      thumbCaptionTwo.style.opacity="0";
     }
-    
-    //Thumb 1 Caption Functions
-     if (screen.width >= 851) {
-      document.getElementById('thumb1').addEventListener('mouseover', displayCaption1);
+
+//Thumb 1 Caption Functions
+
+var thumbOne = document.getElementById('thumb1');
+var thumbCaptionOne = document.getElementById('thumbCaption1');
+
+    if (screen.width >= 851) {
+      thumbOne.addEventListener('mouseover', displayCaption1);
+      thumbCaptionOne.addEventListener('mouseover', displayCaption1);
     }
 
     if (screen.width >= 851) {
-      document.getElementById('thumb1').addEventListener('mouseout', displayThumb1);
+      thumbOne.addEventListener('mouseout', displayThumb1);
+      thumbCaptionOne.addEventListener('mouseout', displayThumb1);
     }
 
     function displayCaption1() {
-      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01-overlay.jpg">'; 
-      document.getElementById('thumbCaption1').style.opacity="1";
-    }
-    function displayThumb1() {
-      document.getElementById('thumb1').innerHTML = '<img class="thumb" src="images/photography/oregon-coast-01.JPG">'; 
-      document.getElementById('thumbCaption1').style.opacity="0";
+      thumbCaptionOne.style.opacity="1";
+      thumbOne.className = "thumb1-overlay thumb"; 
     }
 
+    function displayThumb1() {
+      thumbOne.className = "thumb thumb1"; 
+      thumbCaptionOne.style.opacity="0";
+    }
