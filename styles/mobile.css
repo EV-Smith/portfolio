@@ -558,6 +558,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 3%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -566,6 +567,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 3%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -574,6 +576,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 3%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -582,6 +585,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 3%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -594,6 +598,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 6%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -602,6 +607,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 6%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -610,6 +616,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 6%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -618,6 +625,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 4%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -627,7 +635,7 @@ video {
   #play-pause4 {
     text-align: center;
     position: relative;
-    margin-bottom: 8%;
+    margin: 0 4% 8%; 0
     z-index: 20;
     display: block;
   }
@@ -636,6 +644,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 8%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -644,6 +653,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 8%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
@@ -652,6 +662,7 @@ video {
     text-align: center;
     position: relative;
     margin-bottom: 8%;
+    margin-right: 5%;
     z-index: 20;
     display: block;
   }
