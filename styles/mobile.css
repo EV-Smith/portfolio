@@ -424,6 +424,87 @@ video {
   color: #FF503B;
 }
 
+.thumb1 {
+  background-image: url(../images/photography/oregon-coast-01.JPG);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb1-overlay {
+  background-image: url(../images/photography/oregon-coast-01-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb2 {
+  background-image: url(../images/photography/2015-07-04_01.JPG);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb2-overlay {
+  background-image: url(../images/photography/2015-07-04_01-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb3 {
+  background-image: url(../images/photography/halloween-2015-02.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb3-overlay {
+  background-image: url(../images/photography/halloween-2015-02-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb4 {
+  background-image: url(../images/photography/2015-12_01.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb4-overlay {
+  background-image: url(../images/photography/2015-12_01-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+
 
 @media screen and (max-width:370px) {	
 .video-controls {
