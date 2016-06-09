@@ -523,26 +523,11 @@ video {
   }
 }
 
-@media screen and (min-width: 1381px) and (max-width: 1440px) {
+@media screen and (min-width: 1381px)  {
 .video-controls {
     position: absolute;
     width: 44%;
     margin-top: 10%;
-	padding: 5px;
-    z-index: 20;
-    -webkit-transition: all .7s ease-out 0s;
-    -moz-transition: all .7s ease-out 0s;
-    -ms-transition: all .7s ease-out 0s;
-    -o-transition: all .7s ease-out 0s;
-    transition: all .7s ease-out 0s;
-  }
-}
-
-@media screen and (min-width: 1441px) {
-.video-controls {
-    position: absolute;
-    width: 44%;
-    margin-top: 12%;
 	padding: 5px;
     z-index: 20;
     -webkit-transition: all .7s ease-out 0s;
