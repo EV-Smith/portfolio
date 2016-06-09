@@ -472,7 +472,7 @@ video {
 
 
 
-@media screen and (max-width:370px) {	
+@media screen and (max-width:340px) {	
   #play-pause4 {
     text-align: center;
     position: relative;
@@ -507,7 +507,8 @@ video {
 }
 
 
-@media screen and (min-width:371px) and (max-width:420px) {	
+
+@media screen and (min-width:341px) and (max-width:420px) {	
   #play-pause4 {
     text-align: center;
     position: relative;
