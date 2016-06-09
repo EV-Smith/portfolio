@@ -508,7 +508,7 @@ video {
   }
 }
 
-@media screen and (min-width: 1301px) and (max-width: 1380px) {
+@media screen and (min-width: 1301px) and (max-width: 1560px) {
 .video-controls {
     position: absolute;
     width: 44%;
@@ -523,7 +523,7 @@ video {
   }
 }
 
-@media screen and (min-width: 1381px)  {
+@media screen and (min-width: 1561px)  {
 .video-controls {
     position: absolute;
     width: 44%;
