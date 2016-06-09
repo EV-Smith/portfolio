@@ -264,6 +264,12 @@ footer section.copyright.about p {
   min-height: 100%;
 }
 
+@media screen and (min-width: 1401px) {
+.about-top {
+    margin-bottom: 6%;
+  }
+}
+
 
 .home {
   clear: both;
