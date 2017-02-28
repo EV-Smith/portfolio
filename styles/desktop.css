@@ -313,6 +313,29 @@ footer section.copyright.about p {
   font-style: italic;
 }
 
+.camera-info {
+  font-size: 1rem;
+  line-height: 1.3rem;
+  margin-top: .5rem; 
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.photo-date {
+  font-weight: 800;
+}
+
+.photoset-header {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 100;
+}
+
+.vertical {
+  max-height: 700px;
+  width: auto;
+}
+
 .photo-set {
  clear: both; 
 }
