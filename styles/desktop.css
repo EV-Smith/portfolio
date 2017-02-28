@@ -334,6 +334,7 @@ footer section.copyright.about p {
 .vertical {
   max-height: 700px;
   width: auto;
+  padding-right: 4rem;
 }
 
 .photo-set {
