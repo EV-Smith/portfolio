@@ -1,4 +1,55 @@
 
+//Thumb 6 Caption Functions
+
+var thumbSix = document.getElementById('thumb6');
+var thumbCaptionSix = document.getElementById('thumbCaption6');
+
+    if (screen.width >= 851) {
+      thumbSix.addEventListener('mouseover', displayCaption6);
+      thumbCaptionSix.addEventListener('mouseover', displayCaption6);
+    }
+
+    if (screen.width >= 851) {
+      thumbSix.addEventListener('mouseout', displayThumb6);
+      thumbCaptionSix.addEventListener('mouseout', displayThumb6);
+    }
+
+    function displayCaption6() {
+      thumbCaptionSix.style.opacity="1";
+      thumbSix.className = "thumb6-overlay thumb"; 
+    }
+
+    function displayThumb6() {
+      thumbSix.className = "thumb thumb6"; 
+      thumbCaptionSix.style.opacity="0";
+    }
+
+//Thumb 5 Caption Functions
+
+var thumbFive = document.getElementById('thumb5');
+var thumbCaptionFive = document.getElementById('thumbCaption5');
+
+    if (screen.width >= 851) {
+      thumbFive.addEventListener('mouseover', displayCaption5);
+      thumbCaptionFive.addEventListener('mouseover', displayCaption5);
+    }
+
+    if (screen.width >= 851) {
+      thumbFive.addEventListener('mouseout', displayThumb5);
+      thumbCaptionFive.addEventListener('mouseout', displayThumb5);
+    }
+
+    function displayCaption5() {
+      thumbCaptionFive.style.opacity="1";
+      thumbFive.className = "thumb5-overlay thumb"; 
+    }
+
+    function displayThumb5() {
+      thumbFive.className = "thumb thumb5"; 
+      thumbCaptionFive.style.opacity="0";
+    }
+
+
 //Thumb 4 Caption Functions
 
 var thumbFour = document.getElementById('thumb4');

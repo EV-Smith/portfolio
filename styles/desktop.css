@@ -458,6 +458,46 @@ footer section.copyright.about p {
   transition: all 1s ease-out 0s;
 }
 
+.thumb5 {
+  background-image: url(../images/photography/2016-Cadiz-1.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb5-overlay {
+  background-image: url(../images/photography/2016-Cadiz-1-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb6 {
+  background-image: url(../images/photography/2016-Granada-1.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb6-overlay {
+  background-image: url(../images/photography/2016-Granada-1-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
 /*  Font Awesome Icon styline */
 
 i {
