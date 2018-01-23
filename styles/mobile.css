@@ -125,6 +125,14 @@ h1 {
   color: #353535;
 }
 
+@media screen and (min-width:250px) and (max-width:440px) {	
+   h1 {
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 3rem;
+  } 
+}
+  
 h1:hover {
   color: #FF503B;
 }
@@ -146,6 +154,15 @@ h2.subhead {
   line-height: 1.2rem;
   margin: .6rem 0 .5rem .3rem;
   color: #353535;
+}
+
+@media screen and (min-width:250px) and (max-width:440px) {	
+  h2.subhead {
+  font-size: .85rem;
+  line-height: 1rem;
+  margin: .6rem 0 .5rem .1rem;
+  color: #353535;
+  }
 }
 
 h3 {
@@ -180,6 +197,13 @@ nav ul li {
   margin: 0;
   font-weight: 300;
   font-size: 1.1rem !important;
+}
+
+@media screen and (min-width:250px) and (max-width:440px) {	
+  nav ul li {
+    width: 100%;
+    padding: .5rem 0;
+  }
 }
 
 nav ul li a {
