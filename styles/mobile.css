@@ -124,12 +124,35 @@ h1 {
   margin: 3% 0 0 0;
   color: #353535;
 }
-
-@media screen and (min-width:250px) and (max-width:440px) {	
-   h1 {
-    font-size: 3.5rem;
+@media screen and (min-width:380px) and (max-width:440px) {	
+  h1 {
+    font-size: 4.3rem;
     font-weight: 900;
-    line-height: 3rem;
+    line-height: 2rem;
+  } 
+}
+
+@media screen and (min-width:330px) and (max-width:379px) {	
+  h1 {
+    font-size: 3.7rem;
+    font-weight: 900;
+    line-height: 2rem;
+  } 
+}
+
+@media screen and (min-width:315px) and (max-width:329px) {	
+  h1 {
+    font-size: 3.55rem;
+    font-weight: 900;
+    line-height: 2rem;
+  } 
+} 
+  
+@media screen and (min-width:250px) and (max-width:314px) {	
+   h1 {
+    font-size: 3.1rem;
+    font-weight: 900;
+    line-height: 2rem;
   } 
 }
   
@@ -156,9 +179,37 @@ h2.subhead {
   color: #353535;
 }
 
-@media screen and (min-width:250px) and (max-width:440px) {	
+
+@media screen and (min-width:380px) and (max-width:440px) {	
+  h2.subhead {
+  font-size: 1.05rem;
+  line-height: 1.5rem;
+  margin: .6rem 0 .5rem .2rem;
+  color: #353535;
+  }
+}
+
+@media screen and (min-width:330px) and (max-width:379px) {	
+  h2.subhead {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  margin: .6rem 0 .5rem .2rem;
+  color: #353535;
+  }
+}
+
+@media screen and (min-width:315px) and (max-width:329px) {	
   h2.subhead {
   font-size: .85rem;
+  line-height: 1.5rem;
+  margin: .6rem 0 .5rem .2rem;
+  color: #353535;
+  }
+}
+
+@media screen and (min-width:250px) and (max-width:314px) {	
+  h2.subhead {
+  font-size: .75rem;
   line-height: 1rem;
   margin: .6rem 0 .5rem .1rem;
   color: #353535;
