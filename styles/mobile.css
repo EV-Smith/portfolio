@@ -118,7 +118,7 @@ a:active {
 
 
 h1 {
-  font-size: 3rem;
+  font-size: 4.55rem;
   font-weight: 900;
   line-height: 3rem;
   margin: 3% 0 0 0;
@@ -138,6 +138,13 @@ h2 {
   line-height: 1.1rem;
   font-weight: 300;
   margin: .5rem 0 1rem 0;
+  color: #353535;
+}
+
+h2.subhead {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+  margin: .6rem 0 .5rem .3rem;
   color: #353535;
 }
 
@@ -171,12 +178,12 @@ nav ul li {
   padding: 0 1.4rem 0 0;
   float: left;
   margin: 0;
+  font-weight: 300;
+  font-size: 1.1rem !important;
 }
 
 nav ul li a {
   color: #353535;
-  font-weight: 500;
-  font-size: 1rem;
 }
 
 nav ul li a:hover {
@@ -252,7 +259,7 @@ footer section.copyright.about p {
 }
 
 .homepage-bg {
-  background: url('../images/homepage-alt2.jpg') no-repeat center center fixed;
+  background: url('../images/homepage-2.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -261,7 +268,7 @@ footer section.copyright.about p {
 }
 
 .about-bg {
-  background: url('../images/about-bg.jpg') no-repeat center center fixed;
+  background: url('../images/about-bg-2.jpg') no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -563,6 +570,46 @@ video {
   transition: all 1s ease-out 0s;
 }
 
+
+.thumb7 {
+  background-image: url(../images/photography/2016-Sevilla-1.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb7-overlay {
+  background-image: url(../images/photography/2016-Sevilla-1-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb8 {
+  background-image: url(../images/photography/2016-Switzerland-6.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb8-overlay {
+  background-image: url(../images/photography/2016-Switzerland-6-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
 
 
 @media screen and (max-width:370px) {	
