@@ -40,14 +40,14 @@ var thumbCaptionSeven = document.getElementById('thumbCaption7');
       thumbCaptionSeven.addEventListener('mouseout', displayThumb7);
     }
 
-    function displayCaption5() {
-      thumbCaptionFive.style.opacity="1";
-      thumbFive.className = "thumb5-overlay thumb"; 
+    function displayCaption7() {
+      thumbCaptionSeven.style.opacity="1";
+      thumbSeven.className = "thumb7-overlay thumb"; 
     }
 
-    function displayThumb5() {
-      thumbFive.className = "thumb thumb5"; 
-      thumbCaptionFive.style.opacity="0";
+    function displayThumb7() {
+      thumbSeven.className = "thumb thumb7"; 
+      thumbCaptionSeven.style.opacity="0";
     }
 
 
