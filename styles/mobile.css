@@ -526,7 +526,7 @@ video {
 }
 
 .thumb1 {
-  background-image: url(../images/photography/oregon-coast-01.JPG);
+  background-image: url(../images/photography/2014-08/oregon-coast-01.JPG);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -536,7 +536,7 @@ video {
 }
 
 .thumb1-overlay {
-  background-image: url(../images/photography/oregon-coast-01-overlay.jpg);
+  background-image: url(../images/photography/2014-08/oregon-coast-01-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -546,7 +546,7 @@ video {
 }
 
 .thumb2 {
-  background-image: url(../images/photography/2015-07-04_01.JPG);
+  background-image: url(../images/photography/2015-07-04/2015-07-04_01.JPG);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -556,7 +556,7 @@ video {
 }
 
 .thumb2-overlay {
-  background-image: url(../images/photography/2015-07-04_01-overlay.jpg);
+  background-image: url(../images/photography/2015-07-04/2015-07-04_01-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -566,7 +566,7 @@ video {
 }
 
 .thumb3 {
-  background-image: url(../images/photography/halloween-2015-02.jpg);
+  background-image: url(../images/photography/2015-10-31/halloween-2015-02.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -576,7 +576,7 @@ video {
 }
 
 .thumb3-overlay {
-  background-image: url(../images/photography/halloween-2015-02-overlay.jpg);
+  background-image: url(../images/photography/2015-10-31/halloween-2015-02-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -586,7 +586,7 @@ video {
 }
 
 .thumb4 {
-  background-image: url(../images/photography/2015-12_01.jpg);
+  background-image: url(../images/photography/2015-12_2016-04/2015-12_01.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -596,7 +596,7 @@ video {
 }
 
 .thumb4-overlay {
-  background-image: url(../images/photography/2015-12_01-overlay.jpg);
+  background-image: url(../images/photography/2015-12_2016-04/2015-12_01-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -606,7 +606,7 @@ video {
 }
 
 .thumb5 {
-  background-image: url(../images/photography/2016-Cadiz-1.jpg);
+  background-image: url(../images/photography/2016-09/2016-Cadiz-1.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -616,7 +616,7 @@ video {
 }
 
 .thumb5-overlay {
-  background-image: url(../images/photography/2016-Cadiz-1-overlay.jpg);
+  background-image: url(../images/photography/2016-09/2016-Cadiz-1-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -626,7 +626,7 @@ video {
 }
 
 .thumb6 {
-  background-image: url(../images/photography/2016-Granada-1.jpg);
+  background-image: url(../images/photography/2016-09/2016-Granada-1.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -636,7 +636,7 @@ video {
 }
 
 .thumb6-overlay {
-  background-image: url(../images/photography/2016-Granada-1-overlay.jpg);
+  background-image: url(../images/photography/2016-09/2016-Granada-1-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -647,7 +647,7 @@ video {
 
 
 .thumb7 {
-  background-image: url(../images/photography/2016-Sevilla-1.jpg);
+  background-image: url(../images/photography/2016-09/2016-Sevilla-1.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -657,7 +657,7 @@ video {
 }
 
 .thumb7-overlay {
-  background-image: url(../images/photography/2016-Sevilla-1-overlay.jpg);
+  background-image: url(../images/photography/2016-09/2016-Sevilla-1-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -667,7 +667,7 @@ video {
 }
 
 .thumb8 {
-  background-image: url(../images/photography/2016-Switzerland-6.jpg);
+  background-image: url(../images/photography/2016-09/2016-Switzerland-8.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -677,7 +677,7 @@ video {
 }
 
 .thumb8-overlay {
-  background-image: url(../images/photography/2016-Switzerland-6-overlay.jpg);
+  background-image: url(../images/photography/2016-09/2016-Switzerland-8-overlay.jpg);
   background-size: cover;
   -webkit-transition: all 1s ease-out 0s;
   -moz-transition: all 1s ease-out 0s;
@@ -686,6 +686,165 @@ video {
   transition: all 1s ease-out 0s;
 }
 
+.thumb9 {
+  background-image: url(../images/photography/2017-01/2017-01-21_3.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb9-overlay {
+  background-image: url(../images/photography/2017-01/2017-01-21_3-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb10 {
+  background-image: url(../images/photography/2017-02_Cle-Elum/2017-02_8.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb10-overlay {
+  background-image: url(../images/photography/2017-02_Cle-Elum/2017-02_8-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb11 {
+  background-image: url(../images/photography/2017-03_2017-04/2017-04-16_1.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb11-overlay {
+  background-image: url(../images/photography/2017-03_2017-04/2017-04-16_1-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb12 {
+  background-image: url(../images/photography/2017-04/2017-04-30_4.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb12-overlay {
+  background-image: url(../images/photography/2017-04/2017-04-30_4-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb13 {
+  background-image: url(../images/photography/2017-05_2017-07/2017-07-03_3.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb13-overlay {
+  background-image: url(../images/photography/2017-05_2017-07/2017-07-03_3-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb14 {
+  background-image: url(../images/photography/2017-07-04/2017-07-04-15.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb14-overlay {
+  background-image: url(../images/photography/2017-07-04/2017-07-04-15-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb15 {
+  background-image: url(../images/photography/2017-07_2017-08/2017-08-20_8.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb15-overlay {
+  background-image: url(../images/photography/2017-07_2017-08/2017-08-20_8-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb16 {
+  background-image: url(../images/photography/2017-09_2017-12/2017-11-12_2.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
+
+.thumb16-overlay {
+  background-image: url(../images/photography/2017-09_2017-12/2017-11-12_2-overlay.jpg);
+  background-size: cover;
+  -webkit-transition: all 1s ease-out 0s;
+  -moz-transition: all 1s ease-out 0s;
+  -ms-transition: all 1s ease-out 0s;
+  -o-transition: all 1s ease-out 0s;
+  transition: all 1s ease-out 0s;
+}
 
 @media screen and (max-width:370px) {	
 .video-controls {

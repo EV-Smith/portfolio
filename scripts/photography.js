@@ -1,4 +1,203 @@
+//Thumb 16 Caption Functions
 
+var thumbSixteen = document.getElementById('thumb16');
+var thumbCaptionSixteen = document.getElementById('thumbCaption16');
+
+    if (screen.width >= 851) {
+      thumbSixteen.addEventListener('mouseover', displayCaption16);
+      thumbCaptionSixteen.addEventListener('mouseover', displayCaption16);
+    }
+
+    if (screen.width >= 851) {
+      thumbSixteen.addEventListener('mouseout', displayThumb16);
+      thumbCaptionSixteen.addEventListener('mouseout', displayThumb16);
+    }
+
+    function displayCaption16() {
+      thumbCaptionSixteen.style.opacity="1";
+      thumbSixteen.className = "thumb16-overlay thumb"; 
+    }
+
+    function displayThumb16() {
+      thumbSixteen.className = "thumb thumb16"; 
+      thumbCaptionSixteen.style.opacity="0";
+    }
+
+//Thumb 15 Caption Functions
+
+var thumbFifteen = document.getElementById('thumb15');
+var thumbCaptionFifteen = document.getElementById('thumbCaption15');
+
+    if (screen.width >= 851) {
+      thumbFifteen.addEventListener('mouseover', displayCaption15);
+      thumbCaptionFifteen.addEventListener('mouseover', displayCaption15);
+    }
+
+    if (screen.width >= 851) {
+      thumbFifteen.addEventListener('mouseout', displayThumb15);
+      thumbCaptionFifteen.addEventListener('mouseout', displayThumb15);
+    }
+
+    function displayCaption15() {
+      thumbCaptionFifteen.style.opacity="1";
+      thumbFifteen.className = "thumb15-overlay thumb"; 
+    }
+
+    function displayThumb15() {
+      thumbFifteen.className = "thumb thumb15"; 
+      thumbCaptionFifteen.style.opacity="0";
+    }
+
+
+//Thumb 14 Caption Functions
+
+var thumbFourteen = document.getElementById('thumb14');
+var thumbCaptionFourteen = document.getElementById('thumbCaption14');
+
+    if (screen.width >= 851) {
+      thumbFourteen.addEventListener('mouseover', displayCaption14);
+      thumbCaptionFourteen.addEventListener('mouseover', displayCaption14);
+    }
+
+    if (screen.width >= 851) {
+      thumbFourteen.addEventListener('mouseout', displayThumb14);
+      thumbCaptionFourteen.addEventListener('mouseout', displayThumb14);
+    }
+
+    function displayCaption14() {
+      thumbCaptionFourteen.style.opacity="1";
+      thumbFourteen.className = "thumb14-overlay thumb"; 
+    }
+
+    function displayThumb14() {
+      thumbFourteen.className = "thumb thumb14"; 
+      thumbCaptionFourteen.style.opacity="0";
+    }
+
+//Thumb 13 Caption Functions
+
+var thumbThirteen = document.getElementById('thumb13');
+var thumbCaptionThirteen = document.getElementById('thumbCaption13');
+
+    if (screen.width >= 851) {
+      thumbThirteen.addEventListener('mouseover', displayCaption13);
+      thumbCaptionThirteen.addEventListener('mouseover', displayCaption13);
+    }
+
+    if (screen.width >= 851) {
+      thumbThirteen.addEventListener('mouseout', displayThumb13);
+      thumbCaptionThirteen.addEventListener('mouseout', displayThumb13);
+    }
+
+    function displayCaption13() {
+      thumbCaptionThirteen.style.opacity="1";
+      thumbThirteen.className = "thumb13-overlay thumb"; 
+    }
+
+    function displayThumb13() {
+      thumbThirteen.className = "thumb thumb13"; 
+      thumbCaptionThirteen.style.opacity="0";
+    }
+
+//Thumb 12 Caption Functions
+
+var thumbTwelve = document.getElementById('thumb12');
+var thumbCaptionTwelve = document.getElementById('thumbCaption12');
+
+    if (screen.width >= 851) {
+      thumbTwelve.addEventListener('mouseover', displayCaption12);
+      thumbCaptionTwelve.addEventListener('mouseover', displayCaption12);
+    }
+
+    if (screen.width >= 851) {
+      thumbTwelve.addEventListener('mouseout', displayThumb12);
+      thumbCaptionTwelve.addEventListener('mouseout', displayThumb12);
+    }
+
+    function displayCaption12() {
+      thumbCaptionTwelve.style.opacity="1";
+      thumbTwelve.className = "thumb12-overlay thumb"; 
+    }
+
+    function displayThumb12() {
+      thumbTwelve.className = "thumb thumb12"; 
+      thumbCaptionTwelve.style.opacity="0";
+    }
+
+//Thumb 11 Caption Functions
+
+var thumbEleven = document.getElementById('thumb11');
+var thumbCaptionEleven = document.getElementById('thumbCaption11');
+
+    if (screen.width >= 851) {
+      thumbEleven.addEventListener('mouseover', displayCaption11);
+      thumbCaptionEleven.addEventListener('mouseover', displayCaption11);
+    }
+
+    if (screen.width >= 851) {
+      thumbEleven.addEventListener('mouseout', displayThumb11);
+      thumbCaptionEleven.addEventListener('mouseout', displayThumb11);
+    }
+
+    function displayCaption11() {
+      thumbCaptionEleven.style.opacity="1";
+      thumbEleven.className = "thumb11-overlay thumb"; 
+    }
+
+    function displayThumb11() {
+      thumbEleven.className = "thumb thumb11"; 
+      thumbCaptionEleven.style.opacity="0";
+    }
+
+//Thumb 10 Caption Functions
+
+var thumbTen = document.getElementById('thumb10');
+var thumbCaptionTen = document.getElementById('thumbCaption10');
+
+    if (screen.width >= 851) {
+      thumbTen.addEventListener('mouseover', displayCaption10);
+      thumbCaptionTen.addEventListener('mouseover', displayCaption10);
+    }
+
+    if (screen.width >= 851) {
+      thumbTen.addEventListener('mouseout', displayThumb10);
+      thumbCaptionTen.addEventListener('mouseout', displayThumb10);
+    }
+
+    function displayCaption10() {
+      thumbCaptionTen.style.opacity="1";
+      thumbTen.className = "thumb10-overlay thumb"; 
+    }
+
+    function displayThumb10() {
+      thumbTen.className = "thumb thumb10"; 
+      thumbCaptionTen.style.opacity="0";
+    }
+
+//Thumb 9 Caption Functions
+
+var thumbNine = document.getElementById('thumb9');
+var thumbCaptionNine = document.getElementById('thumbCaption9');
+
+    if (screen.width >= 851) {
+      thumbNine.addEventListener('mouseover', displayCaption9);
+      thumbCaptionNine.addEventListener('mouseover', displayCaption9);
+    }
+
+    if (screen.width >= 851) {
+      thumbNine.addEventListener('mouseout', displayThumb9);
+      thumbCaptionNine.addEventListener('mouseout', displayThumb9);
+    }
+
+    function displayCaption9() {
+      thumbCaptionNine.style.opacity="1";
+      thumbNine.className = "thumb9-overlay thumb"; 
+    }
+
+    function displayThumb9() {
+      thumbNine.className = "thumb thumb9"; 
+      thumbCaptionNine.style.opacity="0";
+    }
 
 //Thumb 8 Caption Functions
 
